@@ -1,0 +1,129 @@
+body{
+    margin: 5% 10%;
+}
+header{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: var(--globalbgcolor);
+    border-radius: 20px;
+}
+.account{
+    font-size: 35px;
+}
+.headerlinks{
+    display: flex;
+    align-items: center;
+}
+.sell{
+    margin-left: auto;
+    font-size: 35px;
+}
+.divimg{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(space1.jpg);
+    height: 100px;
+}
+.logo{
+    height: 50px;
+    width: 150px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: var(--globalbgcolor);
+}
+.menulinks{
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    text-decoration: none;
+    color:var(--globallinks);
+}
+a:visited{
+    color: var(--globallinks);
+}
+li{
+    list-style-type: none;
+}
+.drop{
+    display: none;
+}
+.menulinks:hover .drop{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.categorias{
+    background-color: yellow;
+    display: flex;
+    border: solid;
+    max-width: 100%;
+    min-height: 600px;
+    padding: 3%;
+}
+
+.esportes{
+    display: flex;
+    align-items: flex-end;
+    background-image: url("./Site\ do\ Lukas/fitness2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30%;
+    border: solid;
+    border-radius: 30px;
+}
+
+.frete{
+    border: solid;
+    width: 30%;
+    border-radius: 30px;
+    margin: 0 5%;
+}
+
+.parcelamento{
+    border: solid;
+    width: 30%;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
+.links{
+    font-size: 50px;
+    margin: 10% 2%;
+}
