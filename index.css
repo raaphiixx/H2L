@@ -6,10 +6,9 @@ header{
     align-items: center;
     height: 60px;
     background-color: var(--globalbgcolor);
-    border-radius: 20px;
 }
 .account{
-    font-size: 35px;
+    font-size: 30px;
 }
 .headerlinks{
     display: flex;
@@ -17,7 +16,7 @@ header{
 }
 .sell{
     margin-left: auto;
-    font-size: 35px;
+    font-size: 30px;
 }
 .divimg{
     margin-top: 3%;
@@ -37,10 +36,33 @@ header{
     height: 100px;
     background-color: var(--globalbgcolor);
 }
-.menulinks{
+li{
+    list-style-type: none;
+}
+.listlink{
     font-size: 25px;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
+}
+.secondmenu{
+    display: none;
+    position: absolute;
+    padding: 5px;
+    font-size: 20px;
+    background-color: rgba(255, 4, 4, 0.8);
+    /* Achar uma cor mais relevante 07/10/2021*/
+    border-radius: 12px;
+}
+Criar um hover para os links, dando um destaque a eles
+.listlink:hover .secondmenu{
+    display: flex;
+    flex-direction: column;
+}
+.internalmenu{
+    width: 80px;
+    display: flex;
+    justify-content: center;
 }
 a{
     text-decoration: none;
@@ -48,16 +70,6 @@ a{
 }
 a:visited{
     color: var(--globallinks);
-}
-li{
-    list-style-type: none;
-}
-.drop{
-    display: none;
-}
-.menulinks:hover .drop{
-    display: flex;
-    flex-direction: column;
 }
 
 
