@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <p class="account">Você já tem uma conta?</p>
+        <p class="container account">Você já tem uma conta?</p>
         <div class="nav">
             <div class="headerlinks">
                 <span class="material-icons">
@@ -24,15 +24,25 @@
                 <a href="#">Cadastro</a>
             </div>
         </div>
-        <p class="sell">Central de Vendas</p>
+        <p class="container sell">Central de Vendas</p>
     </header>
+
     <!--Tirar o espaço entre o header e o menu 07/10/2021-->
     <div class="divimg">
-        <img class="logo" src="logopng2.png"/>
+        <img class="container logo" src="logopng2.png"/>
+        <div class="search">
+            <input placeholder="Pesquisar..." type="search" style="width: 40vh ;height: 4vh";/>
+            <span style="color: white;" class="material-icons">
+                search
+                </span>
+        </div>
+        <span style="color: white;" class="container material-icons">
+            shopping_cart
+            </span>
     </div>
+
     <nav class="menu">
         <ul class="principalmenu"></ul>
-            <img class="logo" src="logopng2.png"/>
             <li class="listlink">
                 <a class="menulinks" href=#home>Inicio</a>
             </li>
@@ -46,13 +56,13 @@
                 <a class="menulinks" href="#industry">Industrial</a>
             </li>
             <li class="listlink">
-                <a class="menulinks" href="#contact">Contato</a>
+                <a class="menulinks hovertest" href="#contact">Contato</a>
                 <ul class="secondmenu">
                     <li class="internalmenu">
-                        <a class="menulinks" href="#facebook">Facebook</a>
+                        <a class="menulinksinternal" href="#facebook">Facebook</a>
                     </li>
                     <li class="internalmenu">
-                        <a class="menulinks" href="#youtube">Youtube</a>
+                        <a class="menulinksinternal" href="#youtube">Youtube</a>
                     </li>
                 </ul>
             </li>
@@ -62,8 +72,22 @@
 
 
 
-    <br><br><br><br><br><br><br><br><br>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <br><br><br><br><br><br><br><br><br>
 
     <div class="categorias">
         <div class="esportes">
@@ -76,10 +100,6 @@
             <p class="links">Mais vendidos</p>
         </div>
     </div>
-
-
-
-
 
 
 </body>
