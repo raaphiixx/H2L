@@ -5,13 +5,15 @@ body{
 header{
     display: flex;
     align-items: center;
-    height: 60px;
+    height: 80px;
     background-color: var(--globalbgcolor);
-    border-radius: 20px;
+}
+.container{
+    margin: 0 15px;
 }
 
 .account{
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .headerlinks{
@@ -21,13 +23,12 @@ header{
 
 .sell{
     margin-left: auto;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .divimg{
-    margin-top: 3%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-image: url(space1.jpg);
     height: 100px;
@@ -41,52 +42,54 @@ header{
 .menu{
     display: flex;
     align-items: center;
-    height: 100px;
+    height: 80px;
     background-color: var(--globalbgcolor);
 }
 
-.menulinks{
     font-size: 25px;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
 }
 
+    display: none;
+    position: absolute;
+    padding-bottom: 4px;
+    font-size: 20px;
+    background-color: var(--globalbgcolor);
+    /* Achar uma cor mais relevante 07/10/2021*/
+    border-bottom-right-radius:12px;
+    border-bottom-left-radius:12px;
+}
+.secondmenu:last-child{
+    padding-bottom: 0;
+}
+
+    display: flex;
+    flex-direction: column;
+}
+.internalmenu{
+    width: 120px;
+    display: flex;
+    justify-content: center;
+}
+.menulinksinternal{
+    padding: 10px;
+}
+.internalmenu:hover{
+    background-color: var(--hoverlinks);
+}
+.internalmenu:last-child:hover{
+    border-bottom-right-radius:12px;
+    border-bottom-left-radius:12px;
+}
 a{
     text-decoration: none;
     color:var(--globallinks);
 }
-
 a:visited{
     color: var(--globallinks);
 }
-
-li{
-    list-style-type: none;
-}
-
-.drop{
-    display: none;
-}
-
-.menulinks:hover .drop{
-    display: flex;
-    flex-direction: column;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
