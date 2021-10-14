@@ -1,6 +1,7 @@
 body{
     margin: 5% 10%;
 }
+
 header{
     display: flex;
     align-items: center;
@@ -8,17 +9,21 @@ header{
     background-color: var(--globalbgcolor);
     border-radius: 20px;
 }
+
 .account{
     font-size: 35px;
 }
+
 .headerlinks{
     display: flex;
     align-items: center;
 }
+
 .sell{
     margin-left: auto;
     font-size: 35px;
 }
+
 .divimg{
     margin-top: 3%;
     display: flex;
@@ -27,38 +32,61 @@ header{
     background-image: url(space1.jpg);
     height: 100px;
 }
+
 .logo{
     height: 50px;
     width: 150px;
 }
+
 .menu{
     display: flex;
     align-items: center;
     height: 100px;
     background-color: var(--globalbgcolor);
 }
+
 .menulinks{
     font-size: 25px;
     margin-left: auto;
     margin-right: auto;
 }
+
 a{
     text-decoration: none;
     color:var(--globallinks);
 }
+
 a:visited{
     color: var(--globallinks);
 }
+
 li{
     list-style-type: none;
 }
+
 .drop{
     display: none;
 }
+
 .menulinks:hover .drop{
     display: flex;
     flex-direction: column;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -134,4 +162,53 @@ li{
 .links{
     font-size: 3rem;
     margin: 3vh 3vw;
+}
+
+.containerprod{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgprod2{
+    border: solid;
+    border-radius: 30px;
+}
+
+.divp{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.footer{
+    background-color: #070841;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgfooter{
+    height: 50px;
+    width: 150px;
+}
+
+.footerdiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.imgselos{
+    margin: 10px;
+    width: 250px;
+    height: 70px;
+}
+
+h2{
+    color: white;
+}
+
+.divcontatos{
+    color: white;
+    margin-right: 30px;
 }
