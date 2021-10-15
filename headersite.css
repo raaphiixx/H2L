@@ -102,3 +102,38 @@ a{
 a:visited{
     color: var(--globallinks);
 }
+
+
+.footer{
+    background-color: #070841;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.imgfooter{
+    height: 50px;
+    width: 150px;
+}
+
+.footerdiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.imgselos{
+    margin: 10px;
+    width: 250px;
+    height: 70px;
+}
+
+h2{
+    color: white;
+}
+
+.divcontatos{
+    color: white;
+    margin-right: 30px;
+    width: 200px;
+}
