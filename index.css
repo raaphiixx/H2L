@@ -130,45 +130,40 @@ a:visited{
 
 
 .categorias{
-    height: 600px;
+    margin-top: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px; 
 }
 
 .esportes{
-    background-image: url(./Site\ do\ Lukas/fitness2.png);
-    background-position: 0;
-    background-repeat: no-repeat;
     display: flex;
-    justify-content: end;
-    align-items: right;
+    justify-content: center;
+    align-items: center;
     border: solid;
     border-radius: 30px;
     grid-row: 1/3;
 }
 
+.imgcategorias{
+    width: 90%;
+    height: 100%;
+}
+
 .frete{
-    background-image: url(./Site\ do\ Lukas/frete-gratis.png);
-    background-size: contain;
-    background-repeat: no-repeat;
     display: flex;
-    justify-content: end;
-    align-items: right;
+    justify-content: center;
+    align-items: center;
     border: solid;
     border-radius: 30px;
 }
 
 .vendas{
     display: flex;
-    justify-content: end;
-    align-items: right;
+    justify-content: center;
+    align-items: center;
     border: solid;
     border-radius: 30px;
-    background-image: url(./Site\ do\ Lukas/masivendidos.png);
-    background-position: 90px;
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 
 .links{
