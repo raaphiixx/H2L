@@ -1,6 +1,11 @@
 body{
     margin: 5% 10%;
 }
+.whatsapp{
+    position: fixed;
+    right:5%;
+    bottom: 10%;
+}
 .containerall{
     border: solid 1px black;
     border-top-left-radius: 10px;
@@ -102,9 +107,16 @@ li{
     width: 120px;
     display: flex;
     justify-content: center;
+    margin-top: 10px;
+}
+.muscle{
+    width: 165px;
+}
+.home{
+    width: 140px;
 }
 .menulinksinternal{
-    padding: 10px;
+    padding: 15px;
 }
 .internalmenu:hover{
     background-color: var(--hoverlinks);
