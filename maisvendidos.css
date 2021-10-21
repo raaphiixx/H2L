@@ -174,10 +174,11 @@ a:visited{
     justify-content: space-around;
     padding: 30px;
 }
-p{
-    color:white;
-    font-weight: bolder;
+
+.payments{
+    color: white;
 }
+
 .imgfooter{
     height: 50px;
     width: 150px;
